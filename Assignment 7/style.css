@@ -1,0 +1,28 @@
+h1, h2 {
+    color: teal;
+  }
+  
+  p {
+    color: midnightblue;
+  }
+  
+  ul {
+    border: 6px solid indigo;
+  }
+  
+  ol {
+    border: 6px solid aqua;
+  }
+  
+  ol, ul {
+    padding: 10px 30px;
+    border-radius: 25px;
+  }
+  
+  h1, strong {
+    color: teal;
+  }
+  
+  em {
+    color: forestgreen;
+  }
