@@ -8,11 +8,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-anchor,.fa-coffee {font-size:200px}
-</style>
+
+<link rel="stylesheet" href="srgstyles.css">
+
 </head>
 <body>
 
@@ -22,12 +20,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-pale-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white w3-text-black"><strong>SRG</strong></a>
     <div class="w3-right">
-      <ul style="list-style-type: none; padding: 0; display:inline;">
-        <li style="list-style-type:none; padding:0; display:inline;"><a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Services</a></li>
-        <li style="list-style-type:none; padding:0; display:inline;"><a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Case Studies</a></li>
-        <li style="list-style-type:none; padding:0; display:inline;"><a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Join Us</a></li>
-        <li style="list-style-type:none; padding:0; display:inline;"><a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">The Collective</a></li>
-        <li style="list-style-type:none; padding:0; display:inline;"><a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a></li>
+      <ul id="lists">
+        <li id="lists"><a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Services</a></li>
+        <li id="lists"><a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Case Studies</a></li>
+        <li id="lists"><a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Join Us</a></li>
+        <li id="lists"><a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">The Collective</a></li>
+        <li id="lists"><a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a></li>
       </ul>
     </div>
   </div>
@@ -43,14 +41,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </div>
 
 <!-- Header -->
-<header role="banner" class="w3-container w3-pale-red w3-center" style="padding:50px 16px">
+<header role="banner" class="w3-container w3-pale-red w3-center" id="headerstyle">
   <h1 class="w3-margin w3-jumbo">Sterling-Rice Group</h1>
   <p class="w3-xxlarge">Women owned. Women driven.</p>
   <p class="w3-large">Specializing in business marketing in Boulder and beyond</p>
 </header>
 
 <main role="main">
-  <div style="text-align:center;">
+  <div id="textcenter">
     <video width="1250" height="700" controls>
       <source src="https://www.srg.com/images/home/SRG_Ignition.mp4#t=1.5" type="video/mp4">
       Your browser does not support the video tag.
@@ -63,12 +61,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-left-align">
-      <img src="https://images.ctfassets.net/pdf29us7flmy/56FDHfKmc9l3Q1zavye3Dh/0277fb8041e8327a11c714a22c3437dd/5Cs-of-marketing_DE_Blog_Header_Images_03_.jpg" alt="A woman sitting at a desk working on marketing strategies" style="width:300px">
-      <img src="https://www.searchenginejournal.com/wp-content/uploads/2019/10/4-things-no-one-tells-you-when-you-start-your-own-marketing-business.png" alt="A woman working on marketing strategies on her computer" style="width:300px; margin-top: 40px;">
+      <img src="https://images.ctfassets.net/pdf29us7flmy/56FDHfKmc9l3Q1zavye3Dh/0277fb8041e8327a11c714a22c3437dd/5Cs-of-marketing_DE_Blog_Header_Images_03_.jpg" alt="A woman sitting at a desk working on marketing strategies" id="pic1">
+      <img src="https://www.searchenginejournal.com/wp-content/uploads/2019/10/4-things-no-one-tells-you-when-you-start-your-own-marketing-business.png" alt="A woman working on marketing strategies on her computer" id="pic2">
     </div>
 
     <div class="w3-twothird">
-      <h2 style="font-family:Montserrat">Let us help market your business!</h2>
+      <h2 id="help">Let us help market your business!</h2>
       <p class="w3-padding-16 w3-large">With our fantastic team, we can help you market your brand/business to the world. Our cutting edge research and marketing team will help you no matter what field of work you specialize in.</p>
 
       <p class="w3-text-dark-grey">Humanism is SRG’s irrepressible heart of house. It flows through our insights, strategy, innovation, culinary, design, media, and advertising practices to help our partners unlock their greatest potential to connect.</p>
